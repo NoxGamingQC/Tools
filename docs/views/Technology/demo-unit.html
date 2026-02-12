@@ -1,206 +1,266 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Unité de démonstration</title>
-        <link rel="icon" type="image/x-icon" href="../../img/logo.png">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <link href="https://www.jimmybedard.ca/css/app.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Jimmy Béland-Bédard</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="../Branding">Image de marque</a>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Technologie
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="../Technology/demo-unit.html">Unité de démonstration</a></li>
-                        <li><a class="dropdown-item" href="../Technology/storage-comparison-chart.html">Capacités de stockage</a></li>
-                    </ul>
-                    </li>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="content" style="margin-top:5%;">
-            <div class="container-fluid">
-                <h1>Unité de démonstration</h1>
-                <hr />
-                <div class="accordion" id="OS">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#amazon" aria-expanded="true" aria-controls="amazon" >
-                                Amazon
-                            </button>
-                        </h2>
-                        <div id="amazon" class="accordion-collapse collapse show" data-bs-parent="#OS">
-                            <div class="accordion-body">
-                                <ol>
-                                    <li>Configurer l'appareil, sans lier de compte.</li>
-                                    <li>Dans la barre de recherche, tapez <code>;demo</code>.</li>
-                                    <li>Une notification apparaîtra, vous demandant si vous voulez mettre l'appareil en mode démonstrateur.</li>
-                                    <li>Appuyez deçu.</li>
-                                    <li>Suivez les étapes à l'écran.</li>
-                                </ol>
-                                <br />
-                                <i>N.B. Ceci fonctionne seulement avec les tablettes. Tous les autres produit amazon demanderons l'assistance du service pour entreprise.</i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#apple" aria-expanded="true" aria-controls="apple" >
-                                Apple
-                            </button>
-                        </h2>
-                        <div id="apple" class="accordion-collapse collapse" data-bs-parent="#OS">
-                            <div class="accordion-body">
-                                <ol>
-                                    <li>Allez au <a href="https://demounit.apple.com/">demounit.apple.com</a> ou installez l'application <a href="https://demounit.apple.com/help/Apps/DemoUnit">DemoUnit</a></li>
-                                    <li>Connectez-vous à votre compte Apple</li>
-                                    <li>Trouvez votre magasin</li>
-                                    <li>Entrez le numéro de série de l'appareil</li>
-                                </ol>
-                                <h2>Paramètre</h2>
-                                <div class="accordion" id="appleSettings">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#settingIpad" aria-expanded="true" aria-controls="settingIpad" >
-                                                iPad
-                                            </button>
-                                        </h2>
-                                        <div id="settingIpad" class="accordion-collapse collapse" data-bs-parent="#appleSettings">
-                                            <div class="accordion-body">   
-                                                <p>Appuyez avec 3 doigt en haut à droite de l'écran pendant que la vidéo de démonstration joue. Tenez jusqu'à ce que le menu apparaisse.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#settingAppleWatch" aria-expanded="true" aria-controls="settingAppleWatch" >
-                                                Apple Watch
-                                            </button>
-                                        </h2>
-                                        <div id="settingAppleWatch" class="accordion-collapse collapse" data-bs-parent="#appleSettings">
-                                            <div class="accordion-body">   
-                                                <ol>
-                                                    <li>Ouvrez Paramètre</li>
-                                                    <li>Tappez 3 fois avec 2 doigts au milieu de l'écran.</li>
-                                                </ol>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chromeOS" aria-expanded="true" aria-controls="chromeOS" >
-                                Google ChromeOS
-                            </button>
-                        </h2>
-                        <div id="chromeOS" class="accordion-collapse collapse" data-bs-parent="#OS">
-                            <div class="accordion-body">
-                                <div class="accordion" id="chromeIsEnable">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chromeEnable" aria-expanded="true" aria-controls="chromeEnable" >
-                                                Activer le mode démonstration
-                                            </button>
-                                        </h2>
-                                        <div id="chromeEnable" class="accordion-collapse collapse show" data-bs-parent="#chromeIsEnable">
-                                            <div class="accordion-body">
-                                                <ol>
-                                                    <li>Appuyez sur <code>CTRL+Alt+D</code> alors que vous êtes sur l'écran de configuration</li>
-                                                    <li>Suivez les étapes</li>
-                                                </ol>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chromeDisable" aria-expanded="true" aria-controls="chromeDisable" >
-                                                Désactiver le mode démonstration
-                                            </button>
-                                        </h2>
-                                        <div id="chromeDisable" class="accordion-collapse collapse" data-bs-parent="#chromeIsEnable">
-                                            <div class="accordion-body">
-                                                <ol>
-                                                    <li>Appuyez sur <code>ESC+Refresh+Power</code></li>
-                                                    <li>Mettez l'appareil en mode développeur, ceci formattera l'appareil. (ou appuyez sur <code>CTRL+D</code>)</li>
-                                                    <li>Remettez en mode normal  (ou réappuyez sur <code>CTRL+D</code>)</li>
-                                                    <li>Redémarrez</li>
-                                                </ol>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#windows" aria-expanded="true" aria-controls="windows" >
-                                Microsoft Windows
-                            </button>
-                        </h2>
-                        <div id="windows" class="accordion-collapse collapse" data-bs-parent="#OS">
-                            <div class="accordion-body">
-                                <ol>
-                                    <li>Ouvrez l'application <code>Paramètre (ms-settings:)</code></li>
-                                    <li>Ouvrez l'onglet <code>Système</code></li>
-                                    <li>Ouvrez l'onglet <code>Activation</code></li>
-                                    <li>Cliquez 5 fois sur le texte ou le logo <code>Windows</code></li>
-                                    <li>Suivez les étapes suivantes sur votre écran</li>
-                                </ol>
-                                <br />
-                                <ul>
-                                    <li><i>N.B. Mot de passe pour éditez le mode démo: <code>trs10</code></i></li>
-                                    <li><i>N.B. Pour ouvrir le terminal, appuyez simultanément sur <key>Shift+F10</key> et entrez la commande entre parenthèse</i></li>
-                                    <li><i>N.B. Lors de la configuration initiale, si vous ne voulez pas ajouter de compte Microsoft entrez la commande <code>oobe\bypassNRO</code></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#samsung" aria-expanded="true" aria-controls="samsung" >
-                                Samsung
-                            </button>
-                        </h2>
-                        <div id="samsung" class="accordion-collapse collapse" data-bs-parent="#OS">
-                            <div class="accordion-body">
-                                <p>Allez au <a href="https://www.retailsamsung.com">retailsamsung.com</a> pour télécharger les fichiers nécessaire et suivre les instructions du manuel fourni (Compte marchand et approbation requise)</p>
-                                <i>Mot de passe: <code>Reta!l-9102</code></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer style="background-color:#880000;color:#F5F5F5;font-family: 'Ms Madi', cursive;">
-            <div class="col-md-12">
-                <h2 class="text-center">819-852-8705</h2>
-                <h3 class="text-center">© Service Technologique J.Bédard</h3>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mode Démonstration | Tools</title>
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2a0f0f, #3b1e1e);
+    color: #f1f5f9;
+    min-height: 100vh;
+}
+
+header {
+    padding: 60px 20px 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+header p {
+    margin-top: 10px;
+    color: #e1cbcb;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 25px;
+    text-decoration: none;
+    background: #3b1e1e;
+    color: #f1f5f9;
+    padding: 10px 18px;
+    border-radius: 12px;
+    border: 1px solid #553333;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.back-button:hover {
+    border-color: #f63b3b;
+    transform: translateY(-2px);
+}
+
+.card {
+    background: #3b1e1e;
+    padding: 25px;
+    border-radius: 16px;
+    border: 1px solid #553333;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    border-color: #f63b3b;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(246, 59, 59, 0.15);
+}
+
+
+.card h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+details {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #2f1515;
+    border-radius: 10px;
+    border: 1px solid #553333;
+}
+
+details[open] {
+    border-color: #f63b3b;
+}
+
+
+summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+summary:hover {
+    color: #f63b3b;
+}
+
+ol, ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+code {
+    background: #2a0f0f;
+    padding: 3px 6px;
+    border-radius: 6px;
+    color: #f63b3b;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #8b6464;
+    font-size: 0.85rem;
+}
+a {
+    color: #f63b3b;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.badge {
+    background: #f63b3b;
+    color: white;
+    font-size: 0.7rem;
+    padding: 4px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mode Démonstration</h1>
+    <p>Guide rapide pour configurer les appareils en magasin.</p>
+</header>
+
+<div class="container">
+
+<a href="./index.html" class="back-button">← Retour à Technologie</a>
+
+<!-- Amazon -->
+<div class="card">
+<h2>📦 Amazon <span class="badge">Tablette</span></h2>
+<ol>
+<li>Configurer l'appareil sans lier de compte.</li>
+<li>Dans la barre de recherche, tapez <code>;demo</code>.</li>
+<li>Confirmez l'activation du mode démonstrateur.</li>
+<li>Suivez les étapes à l’écran.</li>
+</ol>
+<p><i>Fonctionne seulement pour les tablettes.</i></p>
+</div>
+
+<!-- Apple -->
+<div class="card">
+<h2>🍎 Apple <span class="badge">Laptop</span><span class="badge">Tablette</span><span class="badge">Montre</span></h2>
+<ol>
+<li>Allez sur <a href="https://demounit.apple.com" target="_blank">demounit.apple.com</a></li>
+<li>Connectez-vous à votre compte Apple</li>
+<li>Trouvez votre magasin</li>
+<li>Entrez le numéro de série</li>
+</ol>
+
+<details>
+<summary>Paramètres iPad <span class="badge">Tablette</span></summary>
+<p>Appuyez avec 3 doigts en haut à droite pendant la vidéo de démonstration.</p>
+</details>
+
+<details>
+<summary>Paramètres Apple Watch <span class="badge">Montre</span></summary>
+<ol>
+<li>Ouvrez Paramètres</li>
+<li>Tapez 3 fois avec 2 doigts au centre</li>
+</ol>
+</details>
+</div>
+
+<!-- ChromeOS -->
+<div class="card">
+<h2>💻 ChromeOS <span class="badge">Laptop</span></h2>
+
+<details open>
+<summary>Activer le mode démo</summary>
+<ol>
+<li>Appuyez sur <code>CTRL+Alt+D</code> à l’écran de configuration</li>
+<li>Suivez les étapes</li>
+</ol>
+</details>
+
+<details>
+<summary>Désactiver le mode démo</summary>
+<ol>
+<li><code>ESC+Refresh+Power</code></li>
+<li>Mode développeur (formatage)</li>
+<li>Revenir en mode normal</li>
+<li>Redémarrer</li>
+</ol>
+</details>
+</div>
+
+<!-- Lenovo -->
+<div class="card">
+<h2>💻 Lenovo <span class="badge">Tablette</span></h2>
+
+<details open>
+<summary>Activer le mode démo</summary>
+<ol>
+<li>Sur l'écran des termes d'utilisation, appuyez pendant au moins 5 secondes sur le logo Lenovo.</li>
+<li>Entrez le mot de passe <code>lenovoepos</code></li>
+<li>Suivez les étapes.</li>
+</ol>
+</details>
+
+<details>
+<summary>Désactiver le mode démo</summary>
+<ol>
+<li>Une notification devrais être en tout temps dans le centre de notification. (Si elle n'est pas là redémarrer l'appareil)</li>
+<li>Suivez les étapes.</li>
+<li>Mot de passe: <code>lenovoepos</code></li>
+</ol>
+</details>
+</div>
+
+<!-- Windows -->
+<div class="card">
+<h2>🪟 Microsoft Windows <span class="badge">Laptop</span></h2>
+<ol>
+<li>Ouvrez <code>ms-settings:</code></li>
+<li>Système → Activation</li>
+<li>Cliquez 5 fois sur le logo Windows</li>
+</ol>
+
+<ul>
+<li><i>Mot de passe édition: <code>trs10</code></i></li>
+<li><i>Terminal: <code>Shift+F10</code></i></li>
+<li><i>Bypass compte: <code>oobe\bypassNRO</code></i></li>
+</ul>
+</div>
+
+<!-- Samsung -->
+<div class="card">
+<h2>📱 Samsung <span class="badge">Téléphone</span><span class="badge">Tablette</span></h2>
+<p>Visitez <a href="https://www.retailsamsung.com" target="_blank">retailsamsung.com</a> pour télécharger les fichiers requis.</p>
+<p><i>Mot de passe: <code>Reta!l-9102</code></i></p>
+</div>
+
+</div>
+
+<footer>
+    © 2026 Jimmy Béland-Bédard — Conçu pour le terrain, pas juste le bureau.
+</footer>
+
+</body>
 </html>
