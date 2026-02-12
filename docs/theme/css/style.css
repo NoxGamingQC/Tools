@@ -1,116 +1,56 @@
-/* ===== Reset ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+html, body  {
+  background-color: #F5F5F5;
+  margin:0px;
+  font-size: 36px;
 }
 
-/* ===== Body ===== */
-body {
-  background-color: #f5f6f8;
-  color: #1a1a1a;
-  line-height: 1.6;
-}
-
-/* ===== Container ===== */
-.container {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 20px;
-}
-
-/* ===== Header ===== */
-.main-header {
-  text-align: center;
-  padding: 25px;
-  background: linear-gradient(135deg, #8b0000, #c40000);
-  color: white;
-}
-
-.main-header nav {
-  margin-top: 10px;
-}
-
-.main-header nav a {
-  margin: 0 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 0.95rem;
-  opacity: 0.9;
-  transition: opacity 0.2s ease;
-}
-
-.main-header nav a:hover {
-  opacity: 1;
-}
-
-/* ===== Titles ===== */
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
+h1, h2, h3, h4, h5, h6, p, li {
+  color: #252525;
 }
 
 h2 {
-  margin-bottom: 15px;
-  font-weight: 600;
-  color: #c40000;
+  font-size:48px;
 }
 
-/* ===== Card Grid ===== */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+.btn-default, .btn-lg {
+  font-size: 36px !important;
+  border: 1px solid #252525 !important;
+} 
+
+footer {
+  h1, h2, h3, h4, h5, h6, p, li {
+    color:#F5F5F5;
+  }
 }
 
-/* ===== Card ===== */
-.card {
-  background-color: white;
-  padding: 22px;
-  border-radius: 10px;
-  border-top: 4px solid #c40000;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+body {
+    position: relative;
+    min-height: 100dvh;
 }
 
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(196, 0, 0, 0.15);
+.content {
+    padding-bottom: 2.5em;
+    z-index:2;
 }
 
-.card p {
-  margin-bottom: 8px;
-  font-size: 0.95rem;
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 15%;
+    padding: 5%;
+    margin:0px !important;
 }
 
-/* ===== Back Button ===== */
-.back-button {
-  text-align: center;
-  margin-top: 40px;
+.absolute {
+  position: absolute !important;
 }
 
-.back-button a {
-  text-decoration: none;
-  background-color: #c40000;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease, transform 0.1s ease;
+script {
+  visibility:hidden;
 }
-
-.back-button a:hover {
-  background-color: #8b0000;
-  transform: translateY(-2px);
-}
-
-/* ===== Footer ===== */
-.main-footer {
-  text-align: center;
-  padding: 25px;
-  font-size: 0.8rem;
-  opacity: 0.6;
-  margin-top: 60px;
+.navbar-brand {
+  font-family: 'Ms Madi', cursive;
+  font-weight: bold;
+  font-size: 40px;
 }
