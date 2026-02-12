@@ -1,141 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Comparaison des Stockages | Tools</title>
-<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+---
+title: Comparaison des Capacités de Stockage
+description: Aide rapide pour conseiller les clients selon leurs besoins.
+layout: master
+---
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-body {
-    background: linear-gradient(135deg, #2a0f0f, #3b1e1e);
-    color: #f1f5f9;
-    min-height: 100vh;
-}
-
-header {
-    padding: 60px 20px 30px;
-    text-align: center;
-    border-bottom: 1px solid #553333;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-
-header p {
-    margin-top: 10px;
-    color: #e1cbcb;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto 60px;
-    padding: 0 20px;
-}
-
-.back-button {
-    display: inline-block;
-    margin: 25px 0;
-    text-decoration: none;
-    background: #3b1e1e;
-    color: #f1f5f9;
-    padding: 10px 18px;
-    border-radius: 12px;
-    border: 1px solid #553333;
-    transition: 0.3s ease;
-    font-weight: 600;
-}
-
-.back-button:hover {
-    border-color: #f63b3b;
-    transform: translateY(-2px);
-}
-
-.card {
-    background: #3b1e1e;
-    padding: 25px;
-    border-radius: 16px;
-    border: 1px solid #553333;
-    margin-bottom: 20px;
-    transition: 0.3s ease;
-}
-
-.card:hover {
-    border-color: #f63b3b;
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(246, 59, 59, 0.15);
-}
-
-.card h2 {
-    margin-bottom: 15px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.badge {
-    background: #f63b3b;
-    color: white;
-    font-size: 0.7rem;
-    padding: 4px 8px;
-    border-radius: 999px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #553333;
-}
-
-th {
-    color: #f63b3b;
-}
-
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #8b6464;
-    font-size: 0.85rem;
-}
-
-a {
-    color: #f63b3b;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>Comparaison des Capacités de Stockage</h1>
-    <p>Aide rapide pour conseiller les clients selon leurs besoins.</p>
-</header>
-
-<div class="container">
-
-<a href="./index.html" class="back-button">← Retour à Technologie</a>
+<a href="./index" class="back-button">← Retour à Technologie</a>
 <!-- 32GB -->
 <div class="card">
 <h2>32GB <span class="badge">Non recommandé</span></h2>
@@ -218,11 +87,4 @@ a:hover {
 </table>
 </div>
 
-</div>
 
-<footer>
-    © 2026 Jimmy Béland-Bédard — Conçu pour le terrain, pas juste le bureau.
-</footer>
-
-</body>
-</html>
