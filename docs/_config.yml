@@ -1,0 +1,4 @@
+title: Tools
+theme: jekyll-theme-minimal
+markdown: kramdown
+include: ["theme", "_includes", "_layouts", "pages"]
