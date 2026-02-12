@@ -1,5 +1,7 @@
 <header>
-    <h1><img src="https://raw.githubusercontent.com/NoxGamingQC/Tools/refs/heads/master/docs/img/logo.svg" width="50px"> Services Tech. J.Bédard</h1>
-    <p>Une collection d’outils pratiques pour les employés de commerce de détail et les techniciens.</p>
-    <div class="badge">tools.jimmybedard.ca</div>
+    <h1><img src="https://raw.githubusercontent.com/NoxGamingQC/Tools/refs/heads/master/docs/img/logo.svg" width="50px">{{ page.title ? page.title : 'Services Tech J.Bédard' }}</h1>
+    <p>{{ page.description ? page.description : 'Une collection d’outils pratiques pour les employés de commerce de détail et les techniciens.' }}</p>
+    {% if page.badge %}
+    <div class="badge">{{ page.badge }}</div>
+    {% endif %}
 </header>

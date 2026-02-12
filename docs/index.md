@@ -1,5 +1,7 @@
 ---
-title: Accueil
+title: Services Tech. J.Bédard
+description: Une collection d’outils pratiques pour les employés de commerce de détail et les techniciens.
+badge: tools.jimmybedard.ca
 layout: master
 ---
 
