@@ -1,4 +1,4 @@
-let currentLang = localStorage.getItem("lang") || "fr";
+let currentLang = localStorage.getItem("lang") || "fr-ca";
 let loadedFiles = {};
 
 async function loadFile(file) {
