@@ -8,25 +8,28 @@ async function loadFile(file) {
     }
 }
 
+function getValueFromPath(obj, path) {
+    return path.split('.').reduce((o, k) => (o || {})[k], obj);
+}
+
 async function trans(key) {
     const [file, ...rest] = key.split(".");
-    const path = rest.join(".");
-
     await loadFile(file);
+    let value = getValueFromPath(loadedFiles[file], rest.join('.'));
+    return value || key;
+}
 
-    let value = loadedFiles[file];
-
-    for (let segment of rest) {
-        if (!value[segment]) {
-            return key;
-        }
-        value = value[segment];
+async function renderTrans() {
+    const elements = document.querySelectorAll('[data-trans]');
+    for (let el of elements) {
+        const key = el.getAttribute('data-trans');
+        el.innerText = await trans(key);
     }
-
-    return value;
 }
 
 function setLang(lang) {
     localStorage.setItem("lang", lang);
     location.reload();
 }
+
+document.addEventListener('DOMContentLoaded', renderTrans);
