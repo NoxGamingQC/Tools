@@ -46,6 +46,7 @@ header p {
     margin: 0 auto 60px;
     padding: 0 20px;
     flex: 1;
+    display: block;
 }
 
 .back-button {
@@ -67,6 +68,7 @@ header p {
 }
 
 .card {
+    width: 100%;
     background: #3b1e1e;
     padding: 25px;
     border-radius: 16px;
