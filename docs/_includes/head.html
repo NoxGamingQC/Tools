@@ -7,6 +7,12 @@
     <script>
         window.BASE_URL = '{{ site.baseurl }}';
     </script>
+    <script>
+function setLang(lang) {
+    localStorage.setItem("lang", lang);
+    location.reload();
+}
+</script>
     <script src="{{ site.baseurl }}/theme/js/i18n.js" defer></script>
     <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/style.css">
 </head>

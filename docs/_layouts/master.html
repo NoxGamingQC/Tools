@@ -3,6 +3,17 @@
     {% include head.html %}
     <body>
         {% include header.html %}
+        <div style="text-align:center; margin:10px 0;">
+            <script>
+                const currentLang = localStorage.getItem("lang") || "fr-ca";
+                if(currentLang !== 'fr-ca'){
+                    document.write('<button onclick="setLang(\'fr-ca\')" style="margin-right:10px; padding:5px 10px; border-radius:6px; border:1px solid #f63b3b; background:#3b1e1e; color:#f1f5f9; font-weight:600;">Français</button>');
+                }
+                if(currentLang !== 'en-ca'){
+                    document.write('<button onclick="setLang(\'en-ca\')" style="padding:5px 10px; border-radius:6px; border:1px solid #f63b3b; background:#3b1e1e; color:#f1f5f9; font-weight:600;">English</button>');
+                }
+            </script>
+        </div>
     <div class="container">
         {{ content }}
     </div>
