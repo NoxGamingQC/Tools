@@ -37,7 +37,7 @@ layout: master
     <li>Fermer le terminal.</li>
     <li>Sélectionner l'option qui précise que vous n'avez pas de réseau.</li>
     <li>Entrez un nom d'utilisateur temporaire.</li>
-    <li>Laissez le champ <code>Mot de passe vide</code>.</li>
+    <li>Laissez le champ <code>Mot de passe</code> vide.</li>
     <li>Autorisez l'accès à la localisation (Pour que l'heure sois syncroniser à l'heure local).</li>
     <li>Terminer la configuration (Les options suivantes sont à votre préférence).</li>
   </ol>
