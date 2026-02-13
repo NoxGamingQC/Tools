@@ -1,3 +1,4 @@
+const BASE_URL = window.BASE_URL || '';
 let currentLang = localStorage.getItem("lang") || "fr-ca";
 let loadedFiles = {};
 
