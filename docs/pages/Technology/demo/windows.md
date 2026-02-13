@@ -44,8 +44,8 @@ layout: master
 </div>
 
 <div class="card">
-  <h2>Désactivation du réseau lors de la configuration initial (Windows 11)</h2>
-  <p>Si vous avez configurer le réseau par erreur et que l'appareil vous oblige à vous connecter à un compte Microsoft, suivez les étapes ci-dessous.</p>
+  <h2>Désactivation du réseau pour la configuration d'un compte local (Windows 11)</h2>
+  <p>Si vous avez configurer le réseau par erreur et que l'appareil vous oblige à vous connecter à un compte Microsoft, suivez les étapes ci-dessous. Ne pas faire lors de la mise à jour initial.</p>
   <ol>
     <li>Ouvrez le terminal en appuyant sur <code>Shift+F10</code>.</li>
     <li>Entrez la commande <code>start ms-settings:</code> dans le terminal.</li>
