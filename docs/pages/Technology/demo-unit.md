@@ -92,7 +92,7 @@ layout: master
 
 <div class="card">
     <h3>💻 Microsoft Windows <span class="badge">Laptop</span></h3>
-    <p>Pour les ordinateur sous Win10 ou Win11.</p>
+    <p>Pour les ordinateurs sous Win10 ou Win11.</p>
     <a href="./demo/windows">Accéder →</a>
 </div>
 
