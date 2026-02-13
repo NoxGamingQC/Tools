@@ -1,6 +1,6 @@
 ---
 title: Microsoft Windows
-description: Pour les ordinateur sous Win10 ou Win11.
+description: Pour les ordinateurs sous Win10 ou Win11.
 layout: master
 ---
 
