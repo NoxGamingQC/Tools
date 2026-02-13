@@ -10,6 +10,7 @@ layout: master
 <div class="card">
   <h2>Information utile</h2>
   <ul>
+    <li>Non testé sur les appareils en mode S.</li>
     <li><i>Mot de passe démo: <code>trs10</code></i></li>
   </ul>
 </div>
