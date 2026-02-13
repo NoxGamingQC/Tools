@@ -4,7 +4,7 @@ description: Guide rapide pour configurer les appareils en magasin.
 layout: master
 ---
 
-<a href="../../demo-unit" class="back-button">← Retour</a>
+<a href="../demo-unit" class="back-button">← Retour</a>
 
 <div class="card">
 <h2>🪟 Microsoft Windows <span class="badge">Laptop</span></h2>
