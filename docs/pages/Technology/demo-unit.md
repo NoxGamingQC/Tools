@@ -89,13 +89,12 @@ layout: master
 </div>
 
 <!-- Windows -->
+
 <div class="card">
-<h2>🪟 Microsoft Windows <span class="badge">Laptop</span></h2>
-<ol>
-<li>Ouvrez <code>ms-settings:</code></li>
-<li>Système → Activation</li>
-<li>Cliquez 5 fois sur le logo Windows</li>
-</ol>
+    <h3>🪟 Microsoft Windows <span class="badge">Laptop</span></h3>
+    <p>Pour les ordinateur sous Win10 ou Win11.</p>
+    <a href="./demo/windows">Accéder →</a>
+</div>
 
 <ul>
 <li><i>Mot de passe édition: <code>trs10</code></i></li>
