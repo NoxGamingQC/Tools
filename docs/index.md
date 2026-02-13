@@ -6,7 +6,7 @@ layout: master
 ---
 
 <div class="card">
-    <h3>{{trans('welcome.title')}}</h3>
+    <h3>{{trans('welcome.technology')}}</h3>
     <p>Outils pour tous ce qui touches à la technologie.</p>
     <a href="./pages/Technology/index">Accéder →</a>
 </div>
