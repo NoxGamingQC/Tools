@@ -11,14 +11,13 @@ body {
     min-height: 100vh;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     padding: 60px 20px 30px;
     text-align: center;
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    background: rgba(42, 15, 15, 0.4);
 }
 
 header h1 {
@@ -46,6 +45,7 @@ header p {
     max-width: 1100px;
     margin: 0 auto 60px;
     padding: 0 20px;
+    flex: 1;
 }
 
 .back-button {
@@ -67,18 +67,18 @@ header p {
 }
 
 .card {
-    background: rgba(59, 30, 30, 0.65);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);    padding: 25px;
+    background: #3b1e1e;
+    padding: 25px;
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.05);    margin-bottom: 20px;
+    border: 1px solid #553333;
+    margin-bottom: 20px;
     transition: all 0.25s ease;
 }
 
 .card:hover {
     border-color: #f63b3b;
     transform: translateY(-4px);
-    box-shadow: 0 10px 30px rgba(246, 59, 59, 0.2);
+    box-shadow: 0 8px 25px rgba(246, 59, 59, 0.15);
 }
 
 .card h2,
@@ -175,6 +175,7 @@ footer {
     text-align: center;
     font-size: 0.85rem;
     color: #8b6464;
+    margin-top: auto;
 }
 
 ::-webkit-scrollbar {
