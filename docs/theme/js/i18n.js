@@ -3,7 +3,7 @@ let loadedFiles = {};
 
 async function loadFile(file) {
     if (!loadedFiles[file]) {
-        const response = await fetch(`{{ site.baseurl }}/lang/${currentLang}/${file}.json`);
+        const response = await fetch(`${BASE_URL}/lang/${currentLang}/${file}.json`);
         loadedFiles[file] = await response.json();
     }
 }
