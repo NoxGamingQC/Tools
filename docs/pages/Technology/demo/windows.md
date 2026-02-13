@@ -17,9 +17,11 @@ layout: master
 <div class="card">
   <h2>Marche à suivre</h2>
   <ol>
-    <li>Ouvrez les paramètre (<code>ms-settings:</code>)</li>
-    <li>Système → Activation</li>
-    <li>Cliquez 5 fois sur le logo Windows</li>
+    <li>Ouvrez les paramètre (<code>start ms-settings:</code>).</li>
+    <li>Accédez à l'onglet <code>Système</code>.</li>
+    <li>Accédez à l'onglet <code>Activation</code>.</li>
+    <li>Cliquez 5 fois sur le logo ou le texte Windows.</li>
+    <li>Entrez les informations demandés.</li>
   </ol>
 </div>
 
@@ -37,7 +39,7 @@ layout: master
     <li>Entrez un nom d'utilisateur temporaire.</li>
     <li>Laissez le champ <code>Mot de passe vide</code>.</li>
     <li>Autorisez l'accès à la localisation (Pour que l'heure sois syncroniser à l'heure local).</li>
-    <li>Terminer la configuration (Les options suivantes sont à votre préférence.</li>
+    <li>Terminer la configuration (Les options suivantes sont à votre préférence).</li>
   </ol>
 </div>
 
