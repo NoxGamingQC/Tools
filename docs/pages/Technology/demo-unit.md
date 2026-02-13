@@ -96,13 +96,6 @@ layout: master
     <a href="./demo/windows">Accéder →</a>
 </div>
 
-<ul>
-<li><i>Mot de passe édition: <code>trs10</code></i></li>
-<li><i>Terminal: <code>Shift+F10</code></i></li>
-<li><i>Bypass compte: <code>oobe\bypassNRO</code></i></li>
-</ul>
-</div>
-
 <!-- Samsung -->
 <div class="card">
 <h2>📱 Samsung <span class="badge">Téléphone</span><span class="badge">Tablette</span></h2>
