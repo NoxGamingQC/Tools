@@ -11,8 +11,6 @@ layout: master
   <h2>Information utile</h2>
   <ul>
     <li><i>Mot de passe démo: <code>trs10</code></i></li>
-    <li><i>Raccourcis terminal: <code>Shift+F10</code></i></li>
-    <li><i>Bypass compte microsoft Win11: <code>oobe\bypassNRO</code></i></li>
   </ul>
 </div>
 
@@ -26,7 +24,7 @@ layout: master
 </div>
 
 <div class="card">
-  <h2>Création d'un compte local</h2>
+  <h2>Création d'un compte local (Windows 11)</h2>
   <ol>
     <li>Choisissez la langue.</li>
     <li>Choisissez votre pays.</li>
@@ -36,6 +34,23 @@ layout: master
     <li>Entrez la commande <code>oobe\bypassNRO</code> dans le terminal.</li>
     <li>Fermer le terminal.</li>
     <li>Sélectionner l'option qui précise que vous n'avez pas de réseau.</li>
+    <li>Entrez un nom d'utilisateur temporaire.</li>
+    <li>Laissez le champ <code>Mot de passe vide</code>.</li>
+    <li>Autorisez l'accès à la localisation (Pour que l'heure sois syncroniser à l'heure local).</li>
+    <li>Terminer la configuration (Les options suivantes sont à votre préférence.</li>
   </ol>
 </div>
 
+<div class="card">
+  <h2>Désactivation du réseau lors de la configuration initial (Windows 11)</h2>
+  <p>Si vous avez configurer le réseau par erreur et que l'appareil vous oblige à vous connecter à un compte Microsoft, suivez les étapes ci-dessous.</p>
+  <ol>
+    <li>Ouvrez le terminal en appuyant sur <code>Shift+F10</code>.</li>
+    <li>Entrez la commande <code>start ms-settings:</code> dans le terminal.</li>
+    <li>Fermer le terminal.</li>
+    <li>Dans les paramètres, accédé à l'onglet <code>Réseau et Internet</code>.</li>
+    <li>Désactiver le Wi-Fi.</li>
+    <li>Sur l'écran de connection à Microsoft, appuyez sur le bouton <code>Se connecter</code>.</li>
+    <li>Continuez la configuration.</li>
+  </ol>
+</div>
