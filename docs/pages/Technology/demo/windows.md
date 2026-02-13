@@ -7,7 +7,7 @@ layout: master
 <a href="../demo-unit" class="back-button">← Retour</a>
 
 <div class="card">
-<h2>🪟 Microsoft Windows <span class="badge">Laptop</span></h2>
+<h2>Microsoft Windows <span class="badge">Laptop</span></h2>
 <ol>
 <li>Commencer la configuration initial jusqu'à l'écran de connexion à un réseau.</li>
 <li>Ne connectez pas l'appareil à un réseau.</li>
