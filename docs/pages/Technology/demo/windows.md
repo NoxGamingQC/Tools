@@ -17,7 +17,7 @@ layout: master
 <div class="card">
   <h2>Marche à suivre</h2>
   <ol>
-    <li>Si l'appareil n'est pas configuré, commencez par créer un compte local.</li>
+    <li>Si l'appareil n'est pas configuré, commencez par créer un compte local (étapes ci-dessous).</li>
     <li>Ouvrez les paramètre (<code>start ms-settings:</code>).</li>
     <li>Accédez à l'onglet <code>Système</code>.</li>
     <li>Accédez à l'onglet <code>Activation</code>.</li>
